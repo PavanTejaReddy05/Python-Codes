@@ -10,6 +10,7 @@ for i in range(len(n)):
     print("Decimal equivalent:", decimal)
 
 # Print the decimal equivalent
+<<<<<<< HEAD
 # print("----------------------------------------------------------------------------------------")
 '''Binary representation of 10 is 1010.
 After toggling the bits(1010), will get 0101 which represents “5”. 
@@ -28,3 +29,6 @@ for i in x:
         l=l+"0"
 # print(l) 
 print(int(l,2))#converts the binary number to decimal
+=======
+
+>>>>>>> 536510fcd2b1405bbd180520ae4284d1dedd36f9

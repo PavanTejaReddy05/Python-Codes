@@ -13,6 +13,7 @@ for i in n:                               #Output=navaP
 if x==n:
         print("The Given String {} is a Palindrome.".format(n))
 else:
+<<<<<<< HEAD
         print("It is not a Palindrome")
 print("----------------------------------------------------------------------------------------")
 
@@ -21,3 +22,7 @@ low=x.lower()
 rev=low[::-1]
 if x==rev:
     print(x,"is a Palindrome")
+=======
+        print("It is not a Palindrome") 
+
+>>>>>>> 536510fcd2b1405bbd180520ae4284d1dedd36f9
