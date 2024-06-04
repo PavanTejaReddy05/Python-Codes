@@ -9,10 +9,13 @@
 # for i in range(non_zero_count,len(lst)):
 #     lst[i]=0
 # print("----------------------------------------------------------------------------------------")
+
 # otpt=lst
 # otpt=list(filter(lambda x:x!=0, lst))
 # otpt.extend([0]*lst.count(0))
 # print(otpt)
+
+
 # print("----------------------------------------------------------------------------------------")
 l=list(map(int, input("Enter the list: ").split(",")))
 non_zero_end=len(l)-1

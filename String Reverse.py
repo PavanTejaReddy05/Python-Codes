@@ -20,3 +20,10 @@ b = int(b)
 print(a*b)
 
 print(int(res[0][1])*int(res[0][2]))
+
+lst = ['Benevolent', 'Dictator', 'For', 'Life']
+# st=[sorted(lst) for i in lst]
+# print(st[0])
+print(sorted(lst))
+# string=""
+print(" ".join(lst))

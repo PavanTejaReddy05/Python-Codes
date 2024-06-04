@@ -47,3 +47,10 @@ count=sum(1 for i in x if i>=30)
 a=[i for i in x if i>=30]
 print(count)
 print(a)
+
+names = ['Sunil', 'Sachin', 'Rahul', 'Kapil', 'Rohit']
+marks = [54, 65, 45, 67, 78]
+dict=dict(zip(names,marks))
+dic={k:v for (k,v) in zip(names,marks)}
+print(dic)
+print(dict)

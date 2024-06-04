@@ -104,3 +104,19 @@ if name:
     print("Congratulations",name)
 else:
     print("Congratulations Student!!!")
+############################################################################################
+four_Wheeler={"Suzuki":("Waganor","Swift","Baleno","Breeza","Amaze"),"Mahindra":"TUV","Huyndai":"Nios i10"}
+for i,j in four_Wheeler.items():
+    if isinstance(j,tuple):
+        l=list(j)
+        # k=sorted(l)
+        # print(k)
+        print(i,":",",".join(sorted(l)))
+    else:
+        print(i,":",j)
+###################################################################################################
+
+l=[chr(i) for i in range(65,90+1)]
+n=[i for i in range(1,26)]
+dictionary=dict(zip(l,n))
+print(dictionary)

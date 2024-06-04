@@ -19,3 +19,16 @@ while i<=3:
             k+=1
         j+=1
     i+=1
+ # print("----------------------------------------------------------------------------------------")   
+i=1
+count=0
+n=int(input())
+while i<=n:
+    if n%i==0:
+        count+=1
+    i=i+1
+if count==2:
+    print(n,"is prime"  )
+else:
+    print(n,"is not prime")
+    

@@ -25,3 +25,76 @@ Hint: Use operator.itemgetter( )'''
 # for i in lst:
 #     lst1=sorted(lst, key=operator.itemgetter(1), reverse=True)
 # print(lst1) 
+########################################################################################################
+# def fun(num) :
+#     if num == 0 :
+#         print("False")
+#     if num == 1 :
+#         print("True")
+#     if num % 2 == 0 :
+#         fun(num / 2)
+# fun(256)
+
+###########################################################################################################
+def fun(n) :
+    if n % 5 == 0 :
+        return True
+    else :
+        return False
+lst1 = ['A', 'X', 'Y', '3', 'M', '4', 'D']
+f1 = filter(str.isalpha, lst1)
+print(list(f1)) # prints ['A', 'X', 'Y', 'M', 'D']
+lst2 = [5, 10, 18, 27, 25]
+f2 = filter(fun, lst2)
+print(list(f2)) # prints  [5, 10, 25]
+
+#########################################################################################################33
+l=[1,2,3,4,5,6]
+l1=[6,5,4,1,2,3]
+resulr=list(map(lambda x,x1:x+x1,l,l1))
+print(resulr)
+##########################################################################################################
+d = {'x' : 500, 'y' : 5874, 'z' : 560}
+# l=[]
+# for i in d.values():
+#     l.append(i)
+# l=[i for i in d.values()]
+# print("Maximum Value is",max(l))
+# print("Minimum Value is",min(l))
+print(max(d.values()))
+print(min(d.values()))
+###############################################################################################
+lst = [10, 20, 30, 40]
+i = lst.__iter__( )
+print(i.__next__( ))
+print(i.__next__( ))
+print(i.__next__( ))
+lst = [10, 20, 30, 40]
+i = iter(lst)
+print(next(i))
+print(next(i))
+print(next(i))
+
+###################################################################################################
+import sys
+lst = [i * i for i in range(15)]
+gen = (i * i for i in range(15))
+print(lst)
+print(gen)
+print(sys.getsizeof(lst))
+print(sys.getsizeof(gen))
+###################################################################################################
+names = ['Amol', 'Anil', 'Akash']
+ages = [25, 23, 27]
+salaries= [34555.50, 40000.00, 450000.00]
+l=list(zip(names,ages,salaries))
+# l1=list(filter(key=lambda x:x[0],l))
+l1=[]
+l2=[]
+l3=[]
+for i in l:
+    l1.append(i[0])
+    l2.append(i[1])
+    l3.append(i[2])
+print(l)
+print(tuple(l1),"\n",tuple(l2),"\n",tuple(l3))
