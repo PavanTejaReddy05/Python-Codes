@@ -88,6 +88,8 @@ names = ['Amol', 'Anil', 'Akash']
 ages = [25, 23, 27]
 salaries= [34555.50, 40000.00, 450000.00]
 l=list(zip(names,ages,salaries))#[('Amol', 25, 34555.5), ('Anil', 23, 40000.0), ('Akash', 27, 450000.0)]
+l=list(zip(names,ages,salaries))
+# l1=list(filter(key=lambda x:x[0],l))
 l1=[]
 l2=[]
 l3=[]
@@ -106,3 +108,4 @@ n=int(input("ENter the value: "))
 l=[f"{n}*{i}={n*i}" for i in range(1,11)]
 for i in l:
     p=i
+print(tuple(l1),"\n",tuple(l2),"\n",tuple(l3))
