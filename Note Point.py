@@ -109,3 +109,8 @@ l=[f"{n}*{i}={n*i}" for i in range(1,11)]
 for i in l:
     p=i
 print(tuple(l1),"\n",tuple(l2),"\n",tuple(l3))
+###################################################################################################
+width=10
+a="string"
+print(f"{a:*^{width}}")
+print(f"{a:*<{width}}")

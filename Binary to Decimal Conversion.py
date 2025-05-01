@@ -21,12 +21,15 @@ print(x)#0b1010
 # x=x[2:]#1010 it is wrong
 # print(x)
 l=""
+
+
 '''for i in x:
     # print(i)
     if int(i)==0:
         l=l+"1"
     else:
         l=l+"0"'''
+        
 l="".join(["1"if int(i)==0 else "0" for i in x])
 print(l) 
 print(int(l,2))#converts the binary number to decimal

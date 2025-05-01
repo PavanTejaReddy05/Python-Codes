@@ -1,4 +1,4 @@
-n=int(input())
+
 lst=list(map(int,input().split()))
 l=[]
 lst.sort()

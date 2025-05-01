@@ -54,5 +54,4 @@ for i in details:
         Avg_3BdRoms.append(i[2])
     elif i[1]>=4:
         Avg_4BdRoms.append(i[2])
-
 print(sum(Avg_3BdRoms)//len(Avg_3BdRoms),sum((Avg_4BdRoms))//len(Avg_4BdRoms))

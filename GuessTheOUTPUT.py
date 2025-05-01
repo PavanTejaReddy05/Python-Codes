@@ -109,6 +109,7 @@
 # lst1=[1,2,3]
 # lst2=[[i for i in lst1]for i in range(4)]
 # print(lst2)
+# print([lst1]*4)
 
 # print("----------------------------------------------------")
 

@@ -23,7 +23,7 @@ Highest Saled Fruit:-Bananas'''
 
 Total_Sale=0                                                     #|res = []
 for Fruit,Quantity,Cost_of_Each_Quantity in n:                   #|for _ in range(3):
-    Total_Sale=+Total_Sale+(Quantity*Cost_of_Each_Quantity)      #|  n = tuple(input().split())
+    Total_Sale=Total_Sale+(Quantity*Cost_of_Each_Quantity)      #|  n = tuple(input().split())
 print(Total_Sale)                                                #|  res.append(n)                                                 
 Avg_Sale=Total_Sale/5                                            #|print(res)
 print("Average Sale of the Day:-",Avg_Sale)
